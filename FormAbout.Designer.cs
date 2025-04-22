@@ -47,7 +47,7 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("나눔스퀘어", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.Location = new System.Drawing.Point(308, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(375, 320);
@@ -61,10 +61,10 @@
             this.linkLabel1.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.linkLabel1.Location = new System.Drawing.Point(308, 337);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(276, 24);
+            this.linkLabel1.Size = new System.Drawing.Size(308, 24);
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://github.com/progh2";
+            this.linkLabel1.Text = "https://github.com/chldudms/";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // FormAbout
@@ -77,6 +77,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormAbout";
             this.Text = "FormAbout";
+            this.Load += new System.EventHandler(this.FormAbout_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
